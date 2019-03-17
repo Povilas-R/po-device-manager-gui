@@ -1,0 +1,93 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DeviceManagerGUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Saved_Ports" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Saved_Descriptions" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OutputDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LogFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DeviceManager_Log.txt</Value>
+    </Setting>
+    <Setting Name="WriteIntervalMillis" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="Saved_FileNames" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Saved_Modes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DataViewerUpdateIntervalMillis" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="DataViewerUpdateIntervalMillisMin" Type="System.Int64" Scope="Application">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="WriteIntervalMillisMin" Type="System.Int64" Scope="Application">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="HideLogOnStartup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Saved_DeviceNames" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Saved_DeviceTypes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BoardColumn_Pressure1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press1</Value>
+    </Setting>
+    <Setting Name="BoardColumn_Pressure2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press2</Value>
+    </Setting>
+    <Setting Name="BoardColumn_Pressure3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press3</Value>
+    </Setting>
+    <Setting Name="BoardColumn_Pressure4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press4</Value>
+    </Setting>
+    <Setting Name="BoardColumn_Pressure5" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press5</Value>
+    </Setting>
+    <Setting Name="BoardColumn_Pressure6" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press6</Value>
+    </Setting>
+    <Setting Name="BoardColumn_Pressure7" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press7</Value>
+    </Setting>
+    <Setting Name="BoardColumn_Pressure8" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Press8</Value>
+    </Setting>
+    <Setting Name="BoardColumn_O2Volts1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">O2Volts1</Value>
+    </Setting>
+    <Setting Name="BoardColumn_O2Volts2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">O2Volts2</Value>
+    </Setting>
+    <Setting Name="Column_Index" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Index</Value>
+    </Setting>
+    <Setting Name="Column_TicksUTC" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ticks_UTC</Value>
+    </Setting>
+    <Setting Name="Column_DateUTC" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Date_UTC</Value>
+    </Setting>
+    <Setting Name="Column_DateLocal" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Date_Local</Value>
+    </Setting>
+    <Setting Name="Column_Millis" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Millis</Value>
+    </Setting>
+    <Setting Name="LastUpdateLingerSeconds" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
