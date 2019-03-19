@@ -93,84 +93,85 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\LiveWatch\LiveWatch.cs">
+    <Compile Include="LiveView\LiveView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\LiveWatch\LiveWatch.Designer.cs">
-      <DependentUpon>LiveWatch.cs</DependentUpon>
+    <Compile Include="LiveView\LiveView.Designer.cs">
+      <DependentUpon>LiveView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Configuration [deprecated, example]\ConfigurationGridObject.cs" />
-    <Compile Include="Forms\Configuration [deprecated, example]\ConfigurationForm.cs">
+    <Compile Include="Configuration [deprecated, example]\ConfigurationGridObject.cs" />
+    <Compile Include="Configuration [deprecated, example]\ConfigurationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Configuration [deprecated, example]\ConfigurationForm.Designer.cs">
+    <Compile Include="Configuration [deprecated, example]\ConfigurationForm.Designer.cs">
       <DependentUpon>ConfigurationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Main\DeviceManagement\DeviceGrid.cs">
+    <Compile Include="LiveView\LiveViewThread.cs" />
+    <Compile Include="Main\DeviceManagement\DeviceGrid.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\DeviceManagement\AvailablePorts.cs">
+    <Compile Include="Main\DeviceManagement\AvailablePorts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\Threads\DataCollector\Listener\Columns.cs" />
-    <Compile Include="Forms\Main\Threads\DataCollector\Listener\FilePreparation.cs" />
-    <Compile Include="Forms\Main\Threads\DataCollector\Listener\Write.cs" />
-    <Compile Include="Forms\Main\Threads\DataCollector\Listener\DataListener.cs" />
-    <Compile Include="Forms\Main\Events.cs">
+    <Compile Include="DataCollector\Columns.cs" />
+    <Compile Include="DataCollector\FilePreparation.cs" />
+    <Compile Include="DataCollector\Write.cs" />
+    <Compile Include="DataCollector\DataCollector.cs" />
+    <Compile Include="Main\Events.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\WndProc.cs">
+    <Compile Include="Main\WndProc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\Threads\GUI\GuiListener.cs">
+    <Compile Include="Main\Threads\GuiListener.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\Threads\LiveWatch\LiveWatch.cs">
+    <Compile Include="Main\Threads\LiveView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\DeviceManagement\AddDevice.cs">
+    <Compile Include="Main\DeviceManagement\AddDevice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\DeviceManagement\ContextMenu.cs">
+    <Compile Include="Main\DeviceManagement\ContextMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Settings\SettingsGrid_Object.cs" />
-    <Compile Include="Forms\Settings\SettingsGrid_Items.cs" />
+    <Compile Include="UserSettings\SettingsGrid_Object.cs" />
+    <Compile Include="UserSettings\SettingsGrid_Items.cs" />
     <Compile Include="Other\DeclareWin32.cs" />
-    <Compile Include="Forms\Main\Threads\DataCollector\DataCollector.cs">
+    <Compile Include="Main\Threads\DataCollector.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\DeviceManagement\SavedDevices.cs">
+    <Compile Include="Main\DeviceManagement\SavedDevices.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\Logging.cs">
+    <Compile Include="Main\Logging.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\MainForm.cs">
+    <Compile Include="Main\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Main\MainForm.Designer.cs">
+    <Compile Include="Main\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Other\Helper.cs" />
-    <Compile Include="Forms\Settings\SettingsForm.cs">
+    <Compile Include="UserSettings\SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Settings\SettingsForm.Designer.cs">
+    <Compile Include="UserSettings\SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Forms\Configuration [deprecated, example]\ConfigurationForm.resx">
+    <EmbeddedResource Include="Configuration [deprecated, example]\ConfigurationForm.resx">
       <DependentUpon>ConfigurationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LiveWatch\LiveWatch.resx">
-      <DependentUpon>LiveWatch.cs</DependentUpon>
+    <EmbeddedResource Include="LiveView\LiveView.resx">
+      <DependentUpon>LiveView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Settings\SettingsForm.resx">
+    <EmbeddedResource Include="UserSettings\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Main\MainForm.resx">
+    <EmbeddedResource Include="Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
