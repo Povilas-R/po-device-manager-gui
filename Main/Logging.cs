@@ -8,6 +8,8 @@ namespace DeviceManagerGUI
 {
     public partial class MainForm
     {
+        public static Logger Logger = new Logger();
+
         private void ToggleLog()
         {
             if (TextBox_Log.Visible)

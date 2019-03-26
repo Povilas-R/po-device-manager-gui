@@ -21,8 +21,7 @@ namespace DeviceManagerGUI
         {
             InitializeComponent();
             Logger.LogFileName = Settings.Default.LogFileName;
-            Logger.Form = this;
-            Logger.LogBox = TextBox_Log;
+            Logger.SetDefaults(this, TextBox_Log);
 
             refreshDevicesComboBox();
             updateStatusBar();
